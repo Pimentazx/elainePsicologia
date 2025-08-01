@@ -5,7 +5,7 @@ html, body, a, p, h1, h2, h3, ul, li {
 
 .header {
     background-color: #140325;
-    padding: 32px;
+    padding: 32px 100px;
     color: white;
     display: flex;
     justify-content: space-between;
@@ -21,10 +21,50 @@ html, body, a, p, h1, h2, h3, ul, li {
 
 .header li {
   display: inline;        
-  margin-right: 15px;     
+  margin-right: 40px;     
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 32px;
+  text-decoration: underline;
 }
 
 .header a {
   text-decoration: none;  
-  color: inherit;        
+  color: inherit;
+           
+}
+
+.header h1 {
+  font-size: 24px;       
+  font-style: bold;
+  line-height: 32px;
+}
+
+.main-content {
+    padding: 80px 100px;
+    max-width: 800px;
+    display: flex;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+
+.profile {
+    margin-left: 40px;
+    padding-top: 40px;
+    
+}
+
+.profile span {
+    display: block; 
+    font-size: 20px;
+    margin-bottom: 8px;
+    padding-top: 8px;
+    margin-left: 0;
+}
+
+
+.profile p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-top: 20px;
 }
